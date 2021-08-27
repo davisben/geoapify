@@ -1,0 +1,22 @@
+{
+    "name": "davisben/geoapify",
+    "description": "SDK for the Geoapify API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ben Davis",
+            "email": "ben@davisben.com"
+        }
+    ],
+    "require-dev": {
+        "phpstan/phpstan": "^0.12.96",
+        "phpro/grumphp": "^1.4",
+        "squizlabs/php_codesniffer": "^3.6",
+        "enlightn/security-checker": "^1.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Geoapify\\": "src/"
+        }
+    }
+}

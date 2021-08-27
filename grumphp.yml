@@ -1,0 +1,7 @@
+grumphp:
+    tasks:
+        composer: ~
+        phpcs:
+            standard: 'PSR12'
+        phpstan: ~
+        securitychecker_enlightn: ~
